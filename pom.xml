@@ -14,7 +14,7 @@
     <url>https://gitee.com/yang-yun-jiao/apijson-spring-boot</url>
 
     <properties>
-        <revision>7.1.x.1-SNAPSHOT</revision>
+        <revision>7.1.x.1</revision>
 
         <maven-javadoc-plugin.version>3.1.1</maven-javadoc-plugin.version>
         <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
@@ -30,8 +30,8 @@
     </licenses>
 
     <scm>
-        <url>https://gitee.com/yang-yun-jiao/apijson-spring-boot</url>
-        <connection>scm:git:git:////gitee.com/yang-yun-jiao/apijson-spring-boot.git</connection>
+        <url>https://gitee.com/yang-yun-jiao/apijson-spring-boot-starter</url>
+        <connection>scm:git:git@gitee.com:yang-yun-jiao/apijson-spring-boot-starter.git</connection>
         <developerConnection>scm:git:ssh://git@//gitee.com/yang-yun-jiao/apijson-spring-boot.git
         </developerConnection>
     </scm>
