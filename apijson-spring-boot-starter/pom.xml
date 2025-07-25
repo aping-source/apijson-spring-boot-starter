@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>io.yunjiao</groupId>
+        <artifactId>apijson-spring-boot-dependencies</artifactId>
+        <version>${revision}</version>
+        <relativePath>../apijson-spring-boot-dependencies/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>apijson-spring-boot-starter</artifactId>
+    <packaging>jar</packaging>
+    <name>APIJSON Spring Boot :: Starter</name>
+    <description>APIJSON Spring Boot Starter</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.APIJSON</groupId>
+            <artifactId>apijson-framework</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.APIJSON</groupId>
+            <artifactId>apijson-fastjson2</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.APIJSON</groupId>
+            <artifactId>apijson-gson</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.yunjiao</groupId>
+            <artifactId>apijson-spring-boot-autoconfigure</artifactId>
+            <version>${revision}</version>
+        </dependency>
+    </dependencies>
+</project>

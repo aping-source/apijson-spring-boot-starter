@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>io.yunjiao</groupId>
+        <artifactId>apijson-spring-boot-examples</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>apijson-spring-boot-example-common</artifactId>
+    <packaging>jar</packaging>
+    <name>APIJSON Spring Boot :: Examples :: Common</name>
+    <description>APIJSON Spring Boot Examples Common</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.yunjiao</groupId>
+            <artifactId>apijson-spring-boot-starter</artifactId>
+            <version>${revision}</version>
+        </dependency>
+    </dependencies>
+</project>

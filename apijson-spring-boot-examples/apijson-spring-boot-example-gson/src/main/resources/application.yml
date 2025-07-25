@@ -1,0 +1,22 @@
+spring:
+  apijson:
+    application: gson
+    shutdown-when-server-error: false
+    new-id-strategy: timestamp
+    need-verify-login: false
+    need-verify-role: false
+    log-debug: true
+    sql:
+      config:
+        default-database: MYSQL
+        default-schema: apijson
+        version: 8.0.11
+
+
+
+logging:
+  level:
+    root: info
+    org.springframework: info
+    io.yunjiao: debug
+

@@ -1,0 +1,39 @@
+spring:
+  apijson:
+    application: fastjson2
+    new-id-strategry: timestamp
+    need-verify-login: true
+    need-verify-role: true
+    need-verify-content: true
+    enable-on-startup: false
+    shutdown-when-server-error: true
+    log-debug: false
+    sql:
+      config:
+        enable-column-config: false;
+        default-database: MYSQL
+        default-schema: sys
+        default-catalog:
+        default-namespace:
+        version: 5.7.22
+      executor:
+        enable-output-null-column: false
+        key-raw-list: '@RAW@LIST'
+        key-vice-item: '@VICE@ITEM'
+    parser:
+      function:
+        parse-arg-value: false
+        enable-remote-function: true
+        enable-script-function: true
+      request:
+        print-request-string-log: false
+        print-big-log: false
+        print-request-endtime-log: false
+        return-stack-trace: true
+        start-from1: false
+    verifier:
+      enable-verify-column: true
+      enable-apijson-router: false
+      update-must-have-id-condition: true
+      enable-verify-role: true
+      enable-verify-content: true
